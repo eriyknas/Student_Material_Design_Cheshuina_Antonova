@@ -78,8 +78,6 @@ fun StudentInformation(
         )
     }
 }
-
-//test
 @Composable
 fun StudentItem(
     student: Student,
@@ -114,6 +112,13 @@ fun StudentApp(){
 @Composable
 fun StudentPreview(){
     Student_Material_Design_Cheshuina_AntonovaTheme(darkTheme = false) {
+        StudentApp()
+    }
+}
+@Preview
+@Composable
+fun StudentDarkThemePreview(){
+    Student_Material_Design_Cheshuina_AntonovaTheme(darkTheme = true) {
         StudentApp()
     }
 }
