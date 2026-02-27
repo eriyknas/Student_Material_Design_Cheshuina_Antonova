@@ -103,6 +103,7 @@ fun Student_Material_Design_Cheshuina_AntonovaTheme(
     MaterialTheme(
         colorScheme = colorScheme,
         typography = Typography,
+        shapes = Shapes,
         content = content
     )
 }
